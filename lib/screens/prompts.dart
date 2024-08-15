@@ -1,8 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:modular_ui/modular_ui.dart';
 
 class PromptsPage extends StatelessWidget {
   
