@@ -1,2 +1,4 @@
-**/.dart_tool
-**/.flutter-plugins
+.dart_tool\package_config.json
+.dart_tool\package_config_subset
+.flutter-plugins
+.flutter-plugins-dependencies
