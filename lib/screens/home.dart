@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'other_page.dart';
+import 'group_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
