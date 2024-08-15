@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tcap/screens/group_card.dart';
-import 'group_page.dart';
-import 'package:modular_ui/modular_ui.dart';
+import 'profile_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -9,9 +8,15 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("tcap"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage("Andwele Ancheta")));
+            },
+            icon: const Icon(Icons.person)),
+        ]
       ),
       body: GroupCard(),
-
       );
   }
 } 
