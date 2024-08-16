@@ -38,6 +38,7 @@ dependencies:
   modular_ui: ^0.0.5
   image_picker: ^1.1.2
   firebase_core: ^2.24.2
+  searchable_listview: ^2.15.0
 
 dev_dependencies:
   flutter_test:

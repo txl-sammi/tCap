@@ -328,6 +328,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+  searchable_listview:
+    dependency: "direct main"
+    description:
+      name: searchable_listview
+      sha256: "398357b5b966a87bb1cfec8f5d5f4ba80885bdcd329abcaf5545d04a4f673f80"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.15.0"
   sky_engine:
     dependency: transitive
     description: flutter
